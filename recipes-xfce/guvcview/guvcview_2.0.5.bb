@@ -20,3 +20,5 @@ PACKAGECONFIG ??= ""
 PACKAGECONFIG[qt5] = "--enable-qt5, --disable-qt5, qt5-base"
 
 FILES_${PN} += "${datadir}"
+
+RDEPENDS_${PN} = "libsdl2 alsa-server alsa-lib alsa-conf"
