@@ -1,0 +1,2 @@
+MACHINE = "qemuarm"
+TMPDIR = "${TOPDIR}/tmpmulti-container"
